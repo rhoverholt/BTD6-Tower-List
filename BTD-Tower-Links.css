@@ -1,0 +1,84 @@
+/* Clear floats after the columns
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+h1 {
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+h2 {
+    font-size: 1.5em;
+    height: 2em;
+    margin-block-start: 0%;
+    margin-block-end: 0.25em;
+    text-align: center;
+    text-align-last: center;
+}
+
+.column {
+    display: inline-block;
+    margin: auto;
+    width: 20%;
+    text-align: justify;
+    text-align-last: justify;
+    align-items: center;
+}
+
+.container {
+    display: inline-block; 
+    padding-bottom: 6%;
+    width: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+img {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+}
+
+.text {
+    height: 35px;
+    width: 100px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    text-align-last: center;
+}
+
+.Primary-Monkeys {
+    background-color:#aaa;
+}
+
+.Magic-Towers {
+    background-color:#bbb;
+}
+
+.Military-Monkeys {
+    background-color:#ccc;
+}
+
+.Support-Towers {
+    background-color:#ddd;
+}
